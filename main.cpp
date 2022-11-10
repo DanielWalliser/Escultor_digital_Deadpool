@@ -123,5 +123,5 @@ int main(void){
   deadpool.putBox(48,53,91,92,70,71);
   deadpool.putBox(47,54,90,91,70,71);
   
-  deadpool.writeOFF((char*)"deadpool.off");
+  deadpool.writeOFF((const char*)"deadpool.off");
   }
